@@ -80,6 +80,7 @@ public class Main {
         }
         reader.close();
 
+        // copy to file 2
         java.util.Scanner reader2 = null;
         try {
             reader2 = new java.util.Scanner(file2);
